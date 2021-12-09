@@ -1,0 +1,116 @@
+    //private final static int CAKE_FLAVOR = 2;
+    //private final static int FROSTING = 3;
+    //private final static int TOPPINGS = 4;
+    //private final static int DECORATIONS = 5;
+
+    private int cakeFlavorInt = 0;
+    private String cakeFlavorString = "";
+    private int frostingFlavorInt = 0;
+    private String frostingFlavorString = "";
+    private int toppingsInt = 0;
+    private String toppingsStr = "";
+    private int decorationInt = 0;
+    private String decorationStr = "";
+
+
+        //System.out.println("2. Cake flavor? ");
+        //System.out.println("3. Frosting? ");
+        //System.out.println("4. Toppings? ");
+        //System.out.println("5. Decorations? ");
+
+
+        // If user chooses 2 for cake base decision, do this:
+        //else if (choice == CAKE_FLAVOR) {
+            // Ask user to input their choice of cake base
+            //System.out.println("What cake base flavor would you like? ");
+            
+            // Display the menu using the array from the cupcake class
+            //cupcake1.displayCakeFlavors();
+            
+            // Get input from the user and assign it.
+            //cakeFlavorInt = inputChoice.nextInt();
+
+            // Send to a decision structure.
+            /*if (cakeFlavorInt == 1) {
+                cakeFlavorString = "Vanilla";
+            } else if (cakeFlavorInt == 2) {
+                cakeFlavorString = "Chocolate";
+            } else if (cakeFlavorInt == 3) {
+                cakeFlavorString = "Dark chocolate";
+            } else if (cakeFlavorInt == 4) {
+                cakeFlavorString = "Strawberry";
+            }
+            Simplifies the code shown below*/ 
+
+            // Set cupcake base getting from the get flavor input
+            //cupcake1.setBaseFlavor(cupcake1.getFlavor(inputChoice.nextInt()-1));
+
+            // Output statement for user saying what cake base they selected
+            //System.out.println("You ordered a " + cupcake1.getBaseFlavor() + " cupcake base flavor.");
+        //}
+        // If user chooses 3 for frosting, do this:
+        //else if (choice == FROSTING) {
+            // Ask user to input their choice of frosting
+            //System.out.println("What frosting type would you like?");
+            
+            // Display choices using array
+            //cupcake1.displayFrostingFlavors();
+
+            // Get the input from the user
+            //frostingFlavorInt = inputChoice.nextInt();
+
+            // Create a decision structure
+            //if (frostingFlavorInt == 1) {
+            //    frostingFlavorString = "Chocolate";
+            //} else if (frostingFlavorInt == 2) {
+            //    frostingFlavorString = "Vanilla";
+            //} else if (frostingFlavorInt == 3) {
+              //  frostingFlavorString = "Peanut Butter";
+            //} else if (frostingFlavorInt == 4) {
+              //  frostingFlavorString = "Cream Cheese";
+            /*} else if (frostingFlavorInt == 5) {
+                frostingFlavorString = "Strawberry";
+            }
+
+            // Set the frosting flavor
+            cupcake1.setFrostingFlavor(frostingFlavorString);
+        }
+
+        // If user chooses 4 for toppings, do this:
+        else if (choice == TOPPINGS) {
+            // Ask user what toppings they'd like
+            System.out.println("What toppings would you like?");
+            
+            // Display the toppings using an array
+            cupcake1.displayToppings();
+
+            // Assign to variable
+            toppingsInt = inputChoice.nextInt();
+
+            // Decision structure
+            if (toppingsInt == 1) {
+                toppingsStr = "Sprinkles";
+            } else if (toppingsInt == 2) {
+                toppingsStr = "Toasted nuts";
+            } else if (toppingsInt == 3) {
+                toppingsStr = "Small candies";
+            }
+
+            // Set in cupcake class
+            cupcake1.setTopping(toppingsStr);
+        }
+
+        // If user chooses 5 for decorations, do this;
+        else if (choice == DECORATIONS) {
+            // Ask user what decorations they'd like
+            System.out.println("What decorations would you like?");
+            
+            // Display decorations using an array
+            cupcake1.displayDecorations();
+
+            // Assign to variable
+            decorationInt = inputChoice.nextInt();
+
+            // Set in cupcake class
+            cupcake1.setDecoration(decorationStr);
+        }*/
